@@ -1,0 +1,5 @@
+Compling mex file with OpenMP library
+mex -v mymex.cpp COMPFLAGS="/openmp $COMPFLAGS"
+
+Compling normal mex file
+mex -g mymex.c
